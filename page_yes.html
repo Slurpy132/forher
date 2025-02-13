@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>good girl ;)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    
+    #particles-js { 
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+    </style>
+</head>
+
+<center>
+    <div id="particles-js"></div>
+    <div class="box1">
+        <h1>YAYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY</h1>
+        <h2>I love my princess so much &#129392;&#129392;&#129392;&#129392;&#129392;&#129392;&#129392;&#129392;</h2>
+    </div>
+    <audio controls autoplay id="MYaudio" style="display: none;">
+        <source src="here_with_me.mp3" type="audio/mpeg">
+    </audio>
+    <h6>my smartypants autoplay works here ;)</h6>
+    <button onclick="goBack()">Back</button>
+    
+</center>
+
+<script src="main.js"></script>
+<script src="particles.js"></script> <script>
+    particlesJS('particles-js', {
+      "particles": {
+        "number": {
+          "value": 100, // Number of particles
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "shape": {
+          "type": "image", 
+          "image": {
+            "src": "heart4.png", 
+            "width": 20,
+            "height": 20
+          }
+        },
+        "size": {
+          "value": 10,
+          "random": true
+        },
+        "move": {
+          "enable": true,
+          "speed": 1,
+          "direction": "bottom",
+          "random": true,
+          "straight": false,
+          "out_mode": "out",
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        } 
+      },
+    });
+  </script>
+  
+</html>
