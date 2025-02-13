@@ -5,7 +5,7 @@ function goSecond(){
     window.location.href="page_no.html";
 }
 function goBack(){
-    window.location.href="ok.html";
+    window.location.href="index.html";
 }
 function playWanna(){
     myAudio.play();
