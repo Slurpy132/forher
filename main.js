@@ -16,3 +16,6 @@ function playHere(){
 function playCreep(){
     myaudio.play();
 }
+function goFlower(){
+    window.location.href="flower.html";
+}
